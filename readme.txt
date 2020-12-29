@@ -4,7 +4,7 @@ Tags: replace, database, woocommerce, cpt, taxonomy, users
 Requires at least: 5.0
 Tested up to: 5.6
 Requires PHP: 7.1.0
-Stable tag: trunk
+Stable tag: 1.0.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -30,7 +30,7 @@ Advanced Database Replacer plugin is prepared for non-technical people who want 
 = How to use Advanced Database Replacer? =
 Advanced Database Replacer allows you to fast and easily update a lot of data in the database. The plugin provides a user-friendly form that allows you to update posts, taxonomies, users (and many more) data without any programming knowledge. Plugin based on the provided data automatically prepares the SQL (Structured Query Language) query that allows an update of many records at the same time.
 
-= I want to use ADR but I don\'t know how to back up my database =
+= I want to use ADR but I don't know how to back up my database =
 If you are not an IT specialist then you should use some extra plugin to create a backup, like WP Database Backup, and then start the replacement process. You can use the condition group to fit your query and limit the data that can be affected by the replacing process.
 
 = What should I do when ADR broke my website? =
@@ -42,5 +42,9 @@ In this case, the database backup that you create before replacement will be ind
 3. View of query execution message
 
 == Changelog ==
+= 1.0.1 =
+* Update texts and translations,
+* Small refactor of Builder class.
+
 = 1.0.0 =
 * First release of the plugin, all options are ready for you!

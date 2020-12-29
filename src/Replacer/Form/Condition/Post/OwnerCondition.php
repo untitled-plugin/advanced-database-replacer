@@ -14,7 +14,7 @@ class OwnerCondition extends AbstractCondition
 {
     public function __construct(AbstractTarget $target)
     {
-        parent::__construct('owner_user', \__('Owner by', 'adr'), false, $target);
+        parent::__construct('owner_user', \__('Post owner', 'adr'), false, $target);
 
         \add_action("wp_ajax_{$this->getName()}_ids", [$this, 'handleAsyncIdsSelect']);
     }
@@ -26,7 +26,7 @@ class OwnerCondition extends AbstractCondition
                 "{$this->getName()}_ids",
                 [
                     'conditions'             => [["{$this->target->getName()}_condition_type", $this->getName()]],
-                    'label'                  => \__('Owner by', 'adr'),
+                    'label'                  => \__('Post owner', 'adr'),
                     'multiple'               => false,
                     'values_callback'        => "{$this->getName()}_ids",
                     'values_callback_params' => [],

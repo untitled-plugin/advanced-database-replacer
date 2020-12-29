@@ -41,19 +41,20 @@ class Builder
             (string) Sanitizer::sanitizePost('conditions.relation', FILTER_SANITIZE_STRING, null, ['AND', 'OR'])
         );
 
-        $formTargets = Replacer::Instance()->getForm()->getTargets();
-        $target = (string) Sanitizer::sanitizePost(
+        $form = Replacer::Instance()->getForm();
+        $targetName = (string) Sanitizer::sanitizePost(
             'target.target_type',
             FILTER_SANITIZE_STRING,
             [],
-            \array_keys($formTargets)
+            \array_keys($form->getTargets())
         );
+        $target = $form->getTarget($targetName);
 
-        if (null === $target || false === $formTargets[$target] instanceof TargetInterface) {
-            \wp_send_json_error(\__('Invalid target name!', 'adr'));
+        if (null === $target) {
+            \wp_send_json_error(\__('Form target contain empty value!', 'adr'));
         }
 
-        $formTargets[(string) $target]->executeQuery($queryProcessor);
+        $target->executeQuery($queryProcessor);
 
         \wp_send_json_success($queryProcessor->execute());
     }

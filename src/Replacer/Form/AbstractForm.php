@@ -44,6 +44,11 @@ abstract class AbstractForm
         return (array) \apply_filters('adr\targets', $this->targets);
     }
 
+    public function getTarget(string $name): ?TargetInterface
+    {
+        return $this->getTargets()[$name] ?? null;
+    }
+
     private function recursiveParse(array $fields, ?int $parentId = null): array
     {
         static $counter = 0;
@@ -102,7 +107,7 @@ abstract class AbstractForm
                 [
                     'label' => \__('In the first step of the replacement, you have to decide that type of database
                         data will be replaced. The form will guide how to select only that content that you really want
-                        to update. And please remember, everything what will happen at the end of this form can make
+                        to update. And please remember, everything that will happen at the end of this form can make
                         irreversible changes in the database, so before we will start, please make sure that you
                         backup your database.', 'adr'),
                     'fields' => \array_merge($targetsDefaultField, $fields ?? []),
