@@ -3,10 +3,10 @@
 /**
  * Plugin Name: Advanced Database Replacer
  * Description: The most advanced WordPress database replacer plugin. A user-friendly and powerful tool to fast modify WordPress posts, taxonomies, and meta.
- * Version: 1.0.1
+ * Version: 1.1.0
  * Author: Untitled Plugin
  * Author URI: https://untitledplugin.com
- * WC tested up to: 5.6
+ * WC tested up to: 5.7.1
  * WC requires at least: 5.0
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html

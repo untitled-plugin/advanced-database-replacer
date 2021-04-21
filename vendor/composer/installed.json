@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "bradmkjr/monolog-wordpress",
-            "version": "2.1.0",
-            "version_normalized": "2.1.0.0",
+            "version": "2.1.2",
+            "version_normalized": "2.1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bradmkjr/monolog-wordpress.git",
-                "reference": "af72d5f6f58c5aef1b373e3c908c188eb0c19b1d"
+                "reference": "03910414bae1d8a6ea8066f627d4ba17fb9a7b52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bradmkjr/monolog-wordpress/zipball/af72d5f6f58c5aef1b373e3c908c188eb0c19b1d",
-                "reference": "af72d5f6f58c5aef1b373e3c908c188eb0c19b1d",
+                "url": "https://api.github.com/repos/bradmkjr/monolog-wordpress/zipball/03910414bae1d8a6ea8066f627d4ba17fb9a7b52",
+                "reference": "03910414bae1d8a6ea8066f627d4ba17fb9a7b52",
                 "shasum": ""
             },
             "require": {
@@ -23,7 +23,7 @@
                 "phpunit/phpunit": "5.0.*",
                 "wordpress/wordpress": "4 - 5"
             },
-            "time": "2020-10-15T12:40:37+00:00",
+            "time": "2020-11-29T14:56:03+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -57,29 +57,29 @@
             ],
             "support": {
                 "issues": "https://github.com/bradmkjr/monolog-wordpress/issues",
-                "source": "https://github.com/bradmkjr/monolog-wordpress/tree/2.1.0"
+                "source": "https://github.com/bradmkjr/monolog-wordpress/tree/2.1.2"
             },
             "install-path": "../bradmkjr/monolog-wordpress"
         },
         {
             "name": "freemius/wordpress-sdk",
-            "version": "2.4.1",
-            "version_normalized": "2.4.1.0",
+            "version": "2.4.2",
+            "version_normalized": "2.4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Freemius/wordpress-sdk.git",
-                "reference": "4f60bf8a5d0635954fb911ffd52a21bc06aa7561"
+                "reference": "84a9be4717effd7697a217e0d931f48ae0d2ecc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Freemius/wordpress-sdk/zipball/4f60bf8a5d0635954fb911ffd52a21bc06aa7561",
-                "reference": "4f60bf8a5d0635954fb911ffd52a21bc06aa7561",
+                "url": "https://api.github.com/repos/Freemius/wordpress-sdk/zipball/84a9be4717effd7697a217e0d931f48ae0d2ecc6",
+                "reference": "84a9be4717effd7697a217e0d931f48ae0d2ecc6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
             },
-            "time": "2020-10-16T08:50:13+00:00",
+            "time": "2021-02-08T16:47:44+00:00",
             "type": "library",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
@@ -99,7 +99,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Freemius/wordpress-sdk/issues",
-                "source": "https://github.com/Freemius/wordpress-sdk/tree/2.4.1"
+                "source": "https://github.com/Freemius/wordpress-sdk/tree/2.4.2"
             },
             "install-path": "../freemius/wordpress-sdk"
         },

@@ -2,9 +2,9 @@
 Contributors: dam6pl
 Tags: replace, database, woocommerce, cpt, taxonomy, users
 Requires at least: 5.0
-Tested up to: 5.6
-Requires PHP: 7.1.0
-Stable tag: 1.0.1
+Tested up to: 5.7.1
+Requires PHP: 7.2.5
+Stable tag: 1.1.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,6 +42,12 @@ In this case, the database backup that you create before replacement will be ind
 3. View of query execution message
 
 == Changelog ==
+= 1.1.0 =
+* Tested plugin with WordPress 5.7 version,
+* Fixed issue with fatal error when call Dry run,
+* Changed minimal required PHP version to 7.2.5,
+* Updated external dependencies.
+
 = 1.0.1 =
 * Update texts and translations,
 * Small refactor of Builder class.

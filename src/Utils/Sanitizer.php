@@ -32,7 +32,7 @@ class Sanitizer
         array $allowed = []
     ) {
         $data = self::arrayGet($data, $key);
-        $dataFiltered = \filter_var($data, $filter, $options);
+        $dataFiltered = \filter_var($data, $filter, $options ?: []);
 
         if ($allowed) {
             if (\is_array($dataFiltered)) {

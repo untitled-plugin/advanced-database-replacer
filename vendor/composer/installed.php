@@ -13,21 +13,21 @@
   array (
     'bradmkjr/monolog-wordpress' => 
     array (
-      'pretty_version' => '2.1.0',
-      'version' => '2.1.0.0',
+      'pretty_version' => '2.1.2',
+      'version' => '2.1.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'af72d5f6f58c5aef1b373e3c908c188eb0c19b1d',
+      'reference' => '03910414bae1d8a6ea8066f627d4ba17fb9a7b52',
     ),
     'freemius/wordpress-sdk' => 
     array (
-      'pretty_version' => '2.4.1',
-      'version' => '2.4.1.0',
+      'pretty_version' => '2.4.2',
+      'version' => '2.4.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '4f60bf8a5d0635954fb911ffd52a21bc06aa7561',
+      'reference' => '84a9be4717effd7697a217e0d931f48ae0d2ecc6',
     ),
     'monolog/monolog' => 
     array (

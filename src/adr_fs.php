@@ -25,7 +25,7 @@ function adr_fs() : \Freemius
                 'is_live'        => true,
             ] );
             $freemius->add_action( 'plugin_icon', static function () : string {
-                return PLUGIN_DIR . '/assets/icon-128x128.png';
+                return PLUGIN_DIR . '/assets/images/icon.svg';
             } );
         } catch ( \Freemius_Exception $e ) {
             exit( 'Freemius extension not loaded property!' );
